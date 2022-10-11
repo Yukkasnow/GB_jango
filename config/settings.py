@@ -118,8 +118,6 @@ AUTHENTICATION_BACKENDS = (
     "django.contrib.auth.backends.ModelBackend",
 )
 
-SOCIAL_AUTH_GITHUB_KEY = "38a2cf6649cb3533df36"
-SOCIAL_AUTH_GITHUB_SECRET = "55b4734724a0c2abca988b6e3fa5cd778a2de68d"
 
 MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
 
@@ -155,3 +153,6 @@ STATICFILES_DIRS = [
 MEDIA_URL = "/media/"
 
 MEDIA_ROOT = BASE_DIR / "media"
+
+SOCIAL_AUTH_GITHUB_KEY = "38a2cf6649cb3533df36"
+SOCIAL_AUTH_GITHUB_SECRET = "55b4734724a0c2abca988b6e3fa5cd778a2de68d"
